@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "cloudkitchenweb"
+  "defaultProject": "cloudkitchenweb",
+  "cli": {
+    "analytics": "3c79a25a-7a4f-4397-9015-469f084b2a91"
+  }
 }
