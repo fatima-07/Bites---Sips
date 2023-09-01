@@ -1,20 +1,72 @@
-<div class="container mt-5 mb-5">
+<div class="menu-bg container-fluid">
 
     <div class="row">
-
-        <div class="col-lg-4" *ngFor="let fd of foodData">
-
+        <div class="col-lg-4" >
             <div class="foodbox mt-3 mb-3">
-                <img src="{{fd.foodImg}}">
-                <h1>{{fd.foodName}}</h1>
-                <p>{{fd.foodDetails}}</p>
-                <p>{{fd.foodPrice | currency:'INR'}}</p>
+                <img src="assets/img/chicken-lollipop.jpg">
+                <h1>Chicken Lollipop ($19.99)</h1>
+                <p>3 Large buttermilk fried chicken lollipops (regular or spicy), 
+                    homemade fries, and a side of chipotle aïoli</p>
                 <br/>
-                <a class="buybtn" [routerLink]="['/menu',fd.id]">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+                <a class="buybtn" [routerLink]="['/menu']">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
             </div>
-
         </div>
 
+        <div class="col-lg-4">
+            <div class="foodbox mt-3 mb-3">
+                <img src='assets/img/lemongrass-chicken.jpg'>
+                <h1>Lemon Grass Chicken ($22.99)</h1>
+                <p>Large fried chicken tenders (regular or spicy) crusted mozzarella cheese, 
+                    tomatoes, lettuce, pickles and chipotle aïoli</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/menu']">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+    
+        <div class="col-lg-4">
+            <div class="foodbox mt-3 mb-3">
+                <img src='assets/img/dynamite-shrimps.jpg'>
+                <h1>Dynamite Shrimps ($20.99)</h1>
+                <p>Large Shrimps with Dynamite sauce (regular or spicy) crusted 
+                        mozzarella cheese, lettuce</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/menu']">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+
+       
+        <div class="col-lg-4">
+            <div class="foodbox mt-3 mb-3">
+                <img src='assets/img/grilled-chicken.jpg'>
+                <h1>Grilled Fried Chicken Rice bowl($25.99)</h1>
+                <p>Large Grilled fried chicken rice bowl (regular or spicy) crusted 
+                        mozzarella cheese, tomatoes, avacodes and lettuce</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/menu']">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="foodbox mt-3 mb-3">
+                <img src='assets/img/noodles.jpg'>
+                <h1>Grilled Fried/Shrimps Noodles($23.99)</h1>
+                <p>Large Grilled fried/shrimps noodles (regular or spicy) crusted 
+                  mozzarella cheese, tomatoes, avacodes and lettuce</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/menu']">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="foodbox mt-3 mb-3">
+                <img src='assets/img/burger-1.jpg'>
+                <h1>Warrior Beef($23.99)</h1>
+                <p>Prime beef patty, Canadian cheddar cheese, caramelized onion, 
+                    tomatoes, lettuce, pickles and Warrior aioli</p>
+                <br/>
+                <a class="buybtn" [routerLink]="['/menu']">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
 
 
     </div>

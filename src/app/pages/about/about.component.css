@@ -1,0 +1,22 @@
+.about-text {
+    background-color: #000000;
+    padding: 60px 40px;
+}
+
+.about-text p {
+    color:#FFFFFF;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-text h1 {
+    color:green;
+    padding-left: 1rem;
+}
+
+.about-text img {
+    width:110%;
+    height:90%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
