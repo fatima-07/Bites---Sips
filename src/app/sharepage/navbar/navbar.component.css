@@ -1,0 +1,31 @@
+.navbar-light .navbar-nav .nav-link
+{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family:'Manrope', sans-serif;
+    
+
+    &.active,
+    &:hover {
+        color: darkgoldenrod;
+    }
+    &.active {
+        font-weight: 500;
+    }
+}
+
+.navbar-brand{
+    color: #FFFFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+    &.active,
+    &:hover {
+        color: darkgoldenrod;
+    }
+    &.active {
+        font-weight: 500;
+    }
+
+}
+
